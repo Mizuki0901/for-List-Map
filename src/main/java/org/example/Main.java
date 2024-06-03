@@ -9,7 +9,7 @@ public class Main {
   public static void main(String[] args) {
 
     List<String> nameList = List.of("小林", "谷", "山田", "長谷川", "林", "東海林", "島村", "阿部",
-        "関", "原");
+        "関", "原","佐々木");
     for (String name : nameList) {
       if (name.length() >= 3) {
         System.out.println(name);
